@@ -1,0 +1,311 @@
+{
+  "space": {
+    "enumerated": 35482,
+    "converged": 32458,
+    "analysed_2to6": 32455,
+    "detected": 76,
+    "undetected": 32379
+  },
+  "table2": {
+    "size_control": {
+      "auc": 0.5,
+      "ci": [
+        0.5,
+        0.5
+      ],
+      "p": 1.0
+    },
+    "dipole_xtb": {
+      "auc": 0.6237831293758259,
+      "ci": [
+        0.5544441034622853,
+        0.6907224435108972
+      ],
+      "p": 0.0008
+    },
+    "mu2_over_Qrot": {
+      "auc": 0.550365882899686,
+      "ci": [
+        0.4763356983297907,
+        0.6229792119521259
+      ],
+      "p": 0.1831
+    },
+    "tanimoto": {
+      "auc": 0.837739564977733,
+      "ci": [
+        0.7887215425077484,
+        0.8827714025445466
+      ],
+      "p": 0.0
+    },
+    "gin": {
+      "auc": 0.9058258557366993,
+      "ci": [
+        0.8654992129271533,
+        0.9398923969782478
+      ],
+      "p": 0.0
+    },
+    "xgboost": {
+      "auc": 0.9075829051711969,
+      "ci": [
+        0.879001227507093,
+        0.9338889435249061
+      ],
+      "p": 0.0
+    }
+  },
+  "table1_counterfactual": {
+    "size_only": [
+      0.9495758296881833,
+      0.5
+    ],
+    "dipole": [
+      0.45527640559752014,
+      0.6237831293758259
+    ],
+    "tanimoto": [
+      0.9341026347486432,
+      0.8377435032880405
+    ],
+    "xgb_7desc": [
+      0.9902806156036809,
+      0.9120550587381937
+    ],
+    "xgb_7desc_plus_size": [
+      0.9974061323047265,
+      0.9406266696544834
+    ]
+  },
+  "pairwise": {
+    "dipole_minus_size": [
+      0.12378312937582596,
+      0.0004
+    ],
+    "mu2Q_minus_dipole": [
+      -0.07341724647613979,
+      0.0018
+    ],
+    "xgb_minus_tan": [
+      0.06984334019346378,
+      0.0109
+    ],
+    "gin_minus_tan": [
+      0.06808629075896612,
+      0.0056
+    ],
+    "gin_minus_xgb": [
+      -0.0017570494344976851,
+      0.9237
+    ]
+  },
+  "candidates_top50_size_counts": {
+    "6": 25,
+    "5": 21,
+    "4": 2,
+    "3": 2
+  },
+  "delta_ml": {
+    "n_pairs": 775,
+    "raw_mae": 0.574767536376391,
+    "dml_mae": 0.48388502477061696,
+    "same_size_auc": 0.5887015890221744,
+    "ci": [
+      0.5080210043203423,
+      0.6663762316952312
+    ],
+    "p": 0.0335
+  },
+  "positives": {
+    "census_in_range": 88,
+    "charge_separated": 8,
+    "in_space": 80,
+    "converged": 79,
+    "analysed_2to6": 76,
+    "per_heavy_atom_converged": {
+      "1": 3,
+      "2": 12,
+      "3": 20,
+      "4": 27,
+      "5": 12,
+      "6": 5
+    },
+    "not_converged": [
+      "c1ccccc#1"
+    ],
+    "zero_dipole_analysed": 9
+  },
+  "prospective": [
+    {
+      "name": "isopropanol",
+      "smiles": "CC(C)O",
+      "formula": "C3H8O",
+      "heavy_atoms": 4,
+      "year": 2022,
+      "mu_xtb": 2.017,
+      "score": 0.976,
+      "rank_score": 54,
+      "pool": 32379,
+      "pct_score": 99.8,
+      "rank_in_stratum": 5,
+      "stratum_size": 429,
+      "pct_same_size": 98.8,
+      "rank_dipole": 20787,
+      "pct_dipole": 35.8,
+      "in_top50": false
+    },
+    {
+      "name": "methyl ketene",
+      "smiles": "CC=C=O",
+      "formula": "C3H4O",
+      "heavy_atoms": 4,
+      "year": 2023,
+      "mu_xtb": 2.306,
+      "score": 0.97,
+      "rank_score": 66,
+      "pool": 32379,
+      "pct_score": 99.8,
+      "rank_in_stratum": 8,
+      "stratum_size": 429,
+      "pct_same_size": 98.1,
+      "rank_dipole": 17970,
+      "pct_dipole": 44.5,
+      "in_top50": false
+    },
+    {
+      "name": "n-propanol",
+      "smiles": "CCCO",
+      "formula": "C3H8O",
+      "heavy_atoms": 4,
+      "year": 2022,
+      "mu_xtb": 1.911,
+      "score": 0.804,
+      "rank_score": 309,
+      "pool": 32379,
+      "pct_score": 99.0,
+      "rank_in_stratum": 35,
+      "stratum_size": 429,
+      "pct_same_size": 91.8,
+      "rank_dipole": 21825,
+      "pct_dipole": 32.6,
+      "in_top50": false
+    },
+    {
+      "name": "crotononitrile",
+      "smiles": "CC=CC#N",
+      "formula": "C4H5N",
+      "heavy_atoms": 5,
+      "year": 2022,
+      "mu_xtb": 4.109,
+      "score": 0.779,
+      "rank_score": 331,
+      "pool": 32379,
+      "pct_score": 99.0,
+      "rank_in_stratum": 98,
+      "stratum_size": 3341,
+      "pct_same_size": 97.0,
+      "rank_dipole": 4596,
+      "pct_dipole": 85.8,
+      "in_top50": false
+    },
+    {
+      "name": "methacrylonitrile",
+      "smiles": "C=C(C)C#N",
+      "formula": "C4H5N",
+      "heavy_atoms": 5,
+      "year": 2022,
+      "mu_xtb": 3.739,
+      "score": 0.779,
+      "rank_score": 331,
+      "pool": 32379,
+      "pct_score": 99.0,
+      "rank_in_stratum": 98,
+      "stratum_size": 3341,
+      "pct_same_size": 97.0,
+      "rank_dipole": 6481,
+      "pct_dipole": 80.0,
+      "in_top50": false
+    },
+    {
+      "name": "E-1-cyano-1,3-butadiene",
+      "smiles": "C=CC=CC#N",
+      "formula": "C5H5N",
+      "heavy_atoms": 6,
+      "year": 2023,
+      "mu_xtb": 4.376,
+      "score": 0.279,
+      "rank_score": 826,
+      "pool": 32379,
+      "pct_score": 97.4,
+      "rank_in_stratum": 490,
+      "stratum_size": 28557,
+      "pct_same_size": 98.3,
+      "rank_dipole": 3477,
+      "pct_dipole": 89.3,
+      "in_top50": false
+    },
+    {
+      "name": "1,2-ethenediol",
+      "smiles": "OC=CO",
+      "formula": "C2H4O2",
+      "heavy_atoms": 4,
+      "year": 2022,
+      "mu_xtb": 2.77,
+      "score": 0.223,
+      "rank_score": 937,
+      "pool": 32379,
+      "pct_score": 97.1,
+      "rank_in_stratum": 93,
+      "stratum_size": 429,
+      "pct_same_size": 78.1,
+      "rank_dipole": 13743,
+      "pct_dipole": 57.6,
+      "in_top50": false
+    },
+    {
+      "name": "allyl cyanide",
+      "smiles": "C=CCC#N",
+      "formula": "C4H5N",
+      "heavy_atoms": 5,
+      "year": 2022,
+      "mu_xtb": 3.717,
+      "score": 0.156,
+      "rank_score": 1141,
+      "pool": 32379,
+      "pct_score": 96.5,
+      "rank_in_stratum": 312,
+      "stratum_size": 3341,
+      "pct_same_size": 90.7,
+      "rank_dipole": 6617,
+      "pct_dipole": 79.6,
+      "in_top50": false
+    }
+  ],
+  "size_only_whole_dataset_auc": {
+    "qm9": 0.9994203309519152,
+    "astrospace": 0.9503917818625978
+  },
+  "strata": {
+    "2": {
+      "molecules": 15,
+      "undetected": 3
+    },
+    "3": {
+      "molecules": 69,
+      "undetected": 49
+    },
+    "4": {
+      "molecules": 456,
+      "undetected": 429
+    },
+    "5": {
+      "molecules": 3353,
+      "undetected": 3341
+    },
+    "6": {
+      "molecules": 28562,
+      "undetected": 28557
+    }
+  }
+}

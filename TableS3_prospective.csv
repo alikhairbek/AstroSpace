@@ -1,0 +1,9 @@
+name,smiles,formula,heavy_atoms,year,mu_xtb,score,rank_score,pool,pct_score,rank_in_stratum,stratum_size,pct_same_size,rank_dipole,pct_dipole,in_top50
+isopropanol,CC(C)O,C3H8O,4,2022,2.017,0.976,54,32379,99.8,5,429,98.8,20787,35.8,False
+methyl ketene,CC=C=O,C3H4O,4,2023,2.306,0.97,66,32379,99.8,8,429,98.1,17970,44.5,False
+n-propanol,CCCO,C3H8O,4,2022,1.911,0.804,309,32379,99.0,35,429,91.8,21825,32.6,False
+crotononitrile,CC=CC#N,C4H5N,5,2022,4.109,0.779,331,32379,99.0,98,3341,97.0,4596,85.8,False
+methacrylonitrile,C=C(C)C#N,C4H5N,5,2022,3.739,0.779,331,32379,99.0,98,3341,97.0,6481,80.0,False
+"E-1-cyano-1,3-butadiene",C=CC=CC#N,C5H5N,6,2023,4.376,0.279,826,32379,97.4,490,28557,98.3,3477,89.3,False
+"1,2-ethenediol",OC=CO,C2H4O2,4,2022,2.77,0.223,937,32379,97.1,93,429,78.1,13743,57.6,False
+allyl cyanide,C=CCC#N,C4H5N,5,2022,3.717,0.156,1141,32379,96.5,312,3341,90.7,6617,79.6,False

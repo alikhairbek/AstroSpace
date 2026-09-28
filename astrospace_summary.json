@@ -1,0 +1,20 @@
+{
+  "space": {
+    "max_heavy": 6,
+    "enumerated": 35482,
+    "xtb_converged": 32458,
+    "ism_positives": 79,
+    "evaluable_positives": 76,
+    "prevalence_pct": 0.2433914597325775
+  },
+  "size_matched_AUC": {
+    "size_control": 0.5,
+    "dipole_raw": 0.6237831293758259,
+    "detectability": 0.550365882899686,
+    "tanimoto": 0.837739564977733,
+    "xgboost_size_free": 0.9075829051711969
+  },
+  "charge_separation": false,
+  "include_fluorine": false,
+  "calibrated": true
+}
